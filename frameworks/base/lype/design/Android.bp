@@ -1,0 +1,22 @@
+// Lype OS Build-System-Erweiterungen
+package {
+    default_applicable_licenses: ["frameworks_base_lype_design_license"],
+}
+
+license {
+    name: "frameworks_base_lype_design_license",
+    visibility: [":__subpackages__"],
+    license_kinds: ["SPDX-license-identifier-Apache-2.0"],
+    license_text: ["NOTICE"],
+}
+
+java_library {
+    name: "LypeDesignLib",
+    srcs: ["src/**/*.kt"],
+    resource_dirs: ["res"],
+    sdk_version: "system_current",
+    min_sdk_version: "35",
+    static_libs: [
+        "androidx.core_core",
+    ],
+}

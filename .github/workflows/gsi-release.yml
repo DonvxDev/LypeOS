@@ -1,0 +1,44 @@
+name: GSI Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Release version
+        required: true
+        default: 0.1.0
+      input_dir:
+        description: Folder containing GSI artifacts
+        required: true
+        default: gsi/out
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install packaging tools
+        run: sudo apt-get update && sudo apt-get install -y p7zip-full
+
+      - name: Package release archive
+        run: |
+          mkdir -p dist
+          python3 tools/package_gsi_release.py \
+            --input-dir "${{ github.event.inputs.input_dir }}" \
+            --output "dist/LypeOS-gsi-${{ github.event.inputs.version }}.7z" \
+            --name "Lype OS GSI" \
+            --version "${{ github.event.inputs.version }}"
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.7z
+          tag_name: gsi-${{ github.event.inputs.version }}
+          name: Lype OS GSI ${{ github.event.inputs.version }}
+          body: |
+            Lype OS GSI release archive.
+            Place the images in gsi/out before running the workflow.

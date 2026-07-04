@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Lokales Manifest für Lype OS.
+  Nach repo init mit LineageOS-Manifest nach .repo/local_manifests/lype.xml kopieren.
+-->
+<manifest>
+  <remote name="lype"
+          fetch=".."
+          review="" />
+
+  <include name="snippets/lype.xml" />
+</manifest>

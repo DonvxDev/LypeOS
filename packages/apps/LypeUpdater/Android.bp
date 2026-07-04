@@ -1,0 +1,16 @@
+android_app {
+    name: "LypeUpdater",
+    srcs: ["src/**/*.kt"],
+    resource_dirs: ["res"],
+    manifest: "AndroidManifest.xml",
+    platform_apis: true,
+    certificate: "platform",
+    privileged: true,
+    system_ext_specific: true,
+    overrides: ["Updater"],
+    static_libs: [
+        "LypeDesignLib",
+        "androidx.activity_activity-compose",
+        "androidx.compose.material3_material3",
+    ],
+}

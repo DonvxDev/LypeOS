@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Lype OS Design Tokens -->
+    <color name="lype_primary">#6C5CE7</color>
+    <color name="lype_primary_variant">#5A4BD1</color>
+    <color name="lype_secondary">#00CEC9</color>
+    <color name="lype_surface_glass">#B3FFFFFF</color>
+    <color name="lype_surface_glass_dark">#B31A1A2E</color>
+    <color name="lype_accent_dynamic">?android:attr/colorAccent</color>
+
+    <dimen name="lype_glass_blur_radius">24dp</dimen>
+    <dimen name="lype_glass_corner_radius">20dp</dimen>
+    <dimen name="lype_elevation_low">4dp</dimen>
+    <dimen name="lype_elevation_high">16dp</dimen>
+
+    <integer name="lype_animation_duration_short">200</integer>
+    <integer name="lype_animation_duration_medium">350</integer>
+    <integer name="lype_animation_duration_long">500</integer>
+
+    <string name="lype_os_name">Lype OS</string>
+    <string name="lype_design_tagline">Premium. Flüssig. Privat.</string>
+</resources>

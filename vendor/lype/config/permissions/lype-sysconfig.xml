@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.lype.launcher">
+        <permission name="android.permission.BIND_APPWIDGET"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.lype.settings">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.lype.updater">
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.RECOVERY"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.lype.security">
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.lype.ai">
+        <permission name="android.permission.RECORD_AUDIO"/>
+    </privapp-permissions>
+</permissions>

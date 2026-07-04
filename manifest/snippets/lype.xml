@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Lype OS additions (LineageOS-kompatibel, eigenes Branding) -->
+  <project path="vendor/lype" name="LypeOS/android_vendor_lype" />
+  <project path="lype-sdk" name="LypeOS/android_lype-sdk" />
+  <project path="packages/overlays/Lype" name="LypeOS/android_packages_overlays_Lype" />
+  <project path="packages/apps/LypeLauncher" name="LypeOS/android_packages_apps_LypeLauncher" />
+  <project path="packages/apps/LypeSettings" name="LypeOS/android_packages_apps_LypeSettings" />
+  <project path="packages/apps/LypeUpdater" name="LypeOS/android_packages_apps_LypeUpdater" />
+  <project path="packages/apps/LypeSecurity" name="LypeOS/android_packages_apps_LypeSecurity" />
+  <project path="packages/apps/LypeFiles" name="LypeOS/android_packages_apps_LypeFiles" />
+  <project path="packages/apps/LypeBackup" name="LypeOS/android_packages_apps_LypeBackup" />
+  <project path="packages/apps/LypeBrowser" name="LypeOS/android_packages_apps_LypeBrowser" />
+  <project path="packages/apps/LypeNotes" name="LypeOS/android_packages_apps_LypeNotes" />
+  <project path="packages/apps/LypeGallery" name="LypeOS/android_packages_apps_LypeGallery" />
+  <project path="packages/apps/LypeRecorder" name="LypeOS/android_packages_apps_LypeRecorder" />
+  <project path="packages/apps/LypeMusic" name="LypeOS/android_packages_apps_LypeMusic" />
+  <project path="packages/apps/LypeCalendar" name="LypeOS/android_packages_apps_LypeCalendar" />
+  <project path="packages/apps/LypeClock" name="LypeOS/android_packages_apps_LypeClock" />
+  <project path="packages/apps/LypeCalculator" name="LypeOS/android_packages_apps_LypeCalculator" />
+  <project path="packages/apps/LypeWallpapers" name="LypeOS/android_packages_apps_LypeWallpapers" />
+  <project path="packages/apps/LypeWeather" name="LypeOS/android_packages_apps_LypeWeather" />
+  <project path="packages/apps/LypeThemes" name="LypeOS/android_packages_apps_LypeThemes" />
+  <project path="packages/apps/LypeShare" name="LypeOS/android_packages_apps_LypeShare" />
+  <project path="packages/apps/LypeAI" name="LypeOS/android_packages_apps_LypeAI" />
+  <project path="frameworks/base/lype" name="LypeOS/android_frameworks_base_lype" />
+  <project path="build/lype" name="LypeOS/android_build_lype" />
+  <project path="device/lype/common" name="LypeOS/android_device_lype_common" />
+
+  <!-- LineageOS-Basis (weiterhin für Gerätekompatibilität) -->
+  <project path="android" name="LineageOS/android" />
+  <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
+  <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" />
+  <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
+  <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
+  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+  <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
+  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
+  <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
+
+</manifest>

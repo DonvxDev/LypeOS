@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lype Einstellungen</string>
+    <string name="section_network">Netzwerk</string>
+    <string name="section_display">Display</string>
+    <string name="section_battery">Akku</string>
+    <string name="section_storage">Speicher</string>
+    <string name="section_privacy">Datenschutz</string>
+    <string name="section_security">Sicherheit</string>
+    <string name="section_personalization">Personalisierung</string>
+    <string name="section_apps">Apps</string>
+    <string name="section_developer">Entwickleroptionen</string>
+    <string name="section_about">Über das Telefon</string>
+</resources>

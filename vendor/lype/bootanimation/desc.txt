@@ -1,0 +1,6 @@
+# Lype OS Bootanimation
+# Format: width height fps
+# part1  pause  path  fade  trim
+1080 2400 60
+p 1 0 part0
+p 0 0 part1

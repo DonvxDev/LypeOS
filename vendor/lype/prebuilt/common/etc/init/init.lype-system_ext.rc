@@ -1,0 +1,7 @@
+#!/system/bin/sh
+# Lype OS System Extension Init
+on post-fs-data
+    setprop ro.lype.init complete
+
+on property:sys.boot_completed=1
+    setprop persist.sys.lype.boot_completed 1

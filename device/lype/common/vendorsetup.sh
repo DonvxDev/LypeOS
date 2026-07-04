@@ -1,0 +1,3 @@
+add_lunch_combo lype_common-user
+add_lunch_combo lype_common-userdebug
+add_lunch_combo lype_common-eng
